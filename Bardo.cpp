@@ -1,6 +1,6 @@
 // Arquivo: bardo.cpp
 
-#include "bardo.h"
+#include "bardo.hpp"
 #include <iostream>
 #include <cstdlib> // Para gerar números aleatórios
 
