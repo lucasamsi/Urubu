@@ -1,6 +1,6 @@
 // Arquivo: guerreiro.cpp
 
-#include "guerreiro.h"
+#include "guerreiro.hpp"
 #include <iostream>
 
 // Construtor da classe Guerreiro
