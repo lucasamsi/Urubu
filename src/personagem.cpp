@@ -1,6 +1,6 @@
 // Arquivo: personagem.cpp
 
-#include "personagem.h"
+#include "personagem.hpp"
 #include <algorithm> // Para usar std::max e std::min
 
 // Construtor da classe base Personagem
