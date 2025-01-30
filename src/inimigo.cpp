@@ -1,6 +1,6 @@
 // Arquivo: inimigo.cpp
 
-#include "inimigo.h"
+#include "inimigo.hpp"
 #include <iostream>
 
 // Construtor da classe Inimigo
