@@ -1,10 +1,10 @@
 // Arquivo: jogo.cpp
 
-#include "jogo.h"
-#include "guerreiro.h"
-#include "bardo.h"
-#include "inimigo.h"
-#include "loja.h"
+#include "jogo.hpp"
+#include "guerreiro.hpp"
+#include "bardo.hpp"
+#include "inimigo.hpp"
+#include "loja.hpp"
 #include <iostream>
 #include <vector>
 #include <memory>
