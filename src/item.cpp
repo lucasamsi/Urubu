@@ -1,6 +1,6 @@
 // Arquivo: item.cpp
 
-#include "item.h"
+#include "item.hpp"
 
 // Construtor da classe Item
 Item::Item(const std::string& nome, int preco, int bonusAtaque, int bonusDefesa, int bonusVida)
