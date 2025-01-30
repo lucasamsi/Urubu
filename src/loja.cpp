@@ -1,6 +1,6 @@
 // Arquivo: loja.cpp
 
-#include "loja.h"
+#include "loja.hpp"
 #include <iostream>
 
 // Construtor da Loja: inicializa a lista de itens disponíveis
