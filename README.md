@@ -56,5 +56,5 @@ Para executar o jogo, é necessário ter:
 ## **Como Executar**
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/turn-based-combat-game.git
-   cd turn-based-combat-game
+   git clone https://github.com/lucasamsi/Urubu.git
+   cd Urubu
