@@ -22,9 +22,13 @@ void Personagem::setVida(int novaVida) {
     vida = std::max(0, std::min(novaVida, maxVida));
 }
 
+int Personagem::getDefesa() const {
+    return defesa;
+}
+
 // Ação de ataque básico
 void Personagem::atacar(Personagem& alvo) {
-    int dano = std::max(1, ataque - alvo.defesa);
+    int dano = std::max(1, ataque - alvo.getDefesa());
     alvo.setVida(alvo.getVida() - dano);
     std::cout << nome << " atacou " << alvo.getNome() << " causando " << dano << " de dano.\n";
 }
