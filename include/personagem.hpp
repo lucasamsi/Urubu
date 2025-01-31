@@ -26,6 +26,9 @@ public:
     int getVida() const;
     void setVida(int novaVida);
     int getDefesa() const;
+    void setDefesa(int novaDefesa);
+    int getAtaque()const;
+    void setAtaque(int novoAtaque);
 
     // Métodos virtuais para ações
     virtual void atacar(Personagem& alvo);

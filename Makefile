@@ -22,6 +22,7 @@ SRC = $(SRC_DIR)/main.cpp \
       $(SRC_DIR)/inimigo.cpp \
       $(SRC_DIR)/loja.cpp \
       $(SRC_DIR)/item.cpp \
+      $(SRC_DIR)/alquimista.cpp \
       $(SRC_DIR)/jogo.cpp
 
 # Objetos gerados
