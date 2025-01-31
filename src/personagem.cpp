@@ -26,6 +26,18 @@ int Personagem::getDefesa() const {
     return defesa;
 }
 
+void Personagem::setDefesa(int novaDefesa) {
+    defesa = novaDefesa;
+}
+
+int Personagem::getAtaque() const {
+    return ataque;
+}
+
+void Personagem::setAtaque(int novoAtaque) {
+    ataque = novoAtaque;
+}
+
 // Ação de ataque básico
 void Personagem::atacar(Personagem& alvo) {
     int dano = std::max(1, ataque - alvo.getDefesa());
