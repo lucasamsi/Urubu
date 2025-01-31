@@ -25,6 +25,7 @@ public:
     std::string getNome() const;
     int getVida() const;
     void setVida(int novaVida);
+    int getDefesa() const;
 
     // Métodos virtuais para ações
     virtual void atacar(Personagem& alvo);
