@@ -1,4 +1,4 @@
-// Arquivo: jogo.hpp
+
 
 #ifndef JOGO_HPP
 #define JOGO_HPP
@@ -8,20 +8,18 @@
 #include "loja.hpp"
 #include "inimigo.hpp"
 
-// Classe Jogo
+
 class Jogo {
 private:
-    std::unique_ptr<Personagem> jogador; // Jogador (polimórfico)
-    int ouro; // Quantidade de ouro do jogador
+    std::unique_ptr<Personagem> jogador; 
+    int ouro; 
 
 public:
-    // Construtor
+    
     Jogo();
 
-    // Método para iniciar o jogo
     void iniciar();
 
-    // Método para executar os níveis do jogo
     void jogar();
 };
 
